@@ -10,19 +10,19 @@ import UIKit
 import Firebase
 
 class InitialViewController: UIViewController {
-    let dbRef = Firestore.firestore()
-
+ 
+    @IBOutlet weak var registerButtonOutlet: UIButton!
+    
+    @IBOutlet weak var loginButtonOutlet: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        addData()
+       
     }
     
-    func addData()  {
-        var ref: DocumentReference?
-        
-        ref = dbRef.collection("User").addDocument(data: ["Name":"sachin","Passion":"Cricket"])
-    }
+    
 
 }
 
