@@ -3,29 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01AA0D64C09AA72BBCFE6B0B /* Pods_Tech_News_and_Tips.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8B4DEFF5000B82A4F97DAD /* Pods_Tech_News_and_Tips.framework */; };
+		9F20C07B2446C5A600D1A833 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F20C07A2446C5A600D1A833 /* RegisterViewController.swift */; };
+		9F20C07D2446C5E500D1A833 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F20C07C2446C5E500D1A833 /* LoginViewController.swift */; };
 		9FE1C5E42446282C00902DE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE1C5E32446282C00902DE7 /* AppDelegate.swift */; };
 		9FE1C5E62446282C00902DE7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE1C5E52446282C00902DE7 /* SceneDelegate.swift */; };
-		9FE1C5E82446282C00902DE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE1C5E72446282C00902DE7 /* ViewController.swift */; };
+		9FE1C5E82446282C00902DE7 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE1C5E72446282C00902DE7 /* InitialViewController.swift */; };
 		9FE1C5EB2446282C00902DE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FE1C5E92446282C00902DE7 /* Main.storyboard */; };
 		9FE1C5EE2446282C00902DE7 /* Tech_News_and_Tips.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9FE1C5EC2446282C00902DE7 /* Tech_News_and_Tips.xcdatamodeld */; };
 		9FE1C5F02446282D00902DE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FE1C5EF2446282D00902DE7 /* Assets.xcassets */; };
 		9FE1C5F32446282D00902DE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FE1C5F12446282D00902DE7 /* LaunchScreen.storyboard */; };
+		9FE1C5FB24462A1900902DE7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9FE1C5FA24462A1900902DE7 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		99F32B6FC5044958C5675DC0 /* Pods-Tech News and Tips.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tech News and Tips.debug.xcconfig"; path = "Target Support Files/Pods-Tech News and Tips/Pods-Tech News and Tips.debug.xcconfig"; sourceTree = "<group>"; };
+		9BC1F49B802AECD471218FD6 /* Pods-Tech News and Tips.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tech News and Tips.release.xcconfig"; path = "Target Support Files/Pods-Tech News and Tips/Pods-Tech News and Tips.release.xcconfig"; sourceTree = "<group>"; };
+		9F20C07A2446C5A600D1A833 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		9F20C07C2446C5E500D1A833 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		9FE1C5E02446282C00902DE7 /* Tech News and Tips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tech News and Tips.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FE1C5E32446282C00902DE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FE1C5E52446282C00902DE7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9FE1C5E72446282C00902DE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9FE1C5E72446282C00902DE7 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
 		9FE1C5EA2446282C00902DE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9FE1C5ED2446282C00902DE7 /* Tech_News_and_Tips.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tech_News_and_Tips.xcdatamodel; sourceTree = "<group>"; };
 		9FE1C5EF2446282D00902DE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FE1C5F22446282D00902DE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FE1C5F42446282D00902DE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FE1C5FA24462A1900902DE7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CB8B4DEFF5000B82A4F97DAD /* Pods_Tech_News_and_Tips.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tech_News_and_Tips.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +43,62 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01AA0D64C09AA72BBCFE6B0B /* Pods_Tech_News_and_Tips.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		261A9FC6F62CDDA48C549ABC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB8B4DEFF5000B82A4F97DAD /* Pods_Tech_News_and_Tips.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2991C7902030D28ED8169072 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99F32B6FC5044958C5675DC0 /* Pods-Tech News and Tips.debug.xcconfig */,
+				9BC1F49B802AECD471218FD6 /* Pods-Tech News and Tips.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9F20C0772446C3D200D1A833 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9F20C0782446C3DC00D1A833 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9FE1C5E92446282C00902DE7 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9F20C0792446C3E500D1A833 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9FE1C5E72446282C00902DE7 /* InitialViewController.swift */,
+				9F20C07A2446C5A600D1A833 /* RegisterViewController.swift */,
+				9F20C07C2446C5E500D1A833 /* LoginViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		9FE1C5D72446282C00902DE7 = {
 			isa = PBXGroup;
 			children = (
 				9FE1C5E22446282C00902DE7 /* Tech News and Tips */,
 				9FE1C5E12446282C00902DE7 /* Products */,
+				2991C7902030D28ED8169072 /* Pods */,
+				261A9FC6F62CDDA48C549ABC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +113,15 @@
 		9FE1C5E22446282C00902DE7 /* Tech News and Tips */ = {
 			isa = PBXGroup;
 			children = (
+				9FE1C5F12446282D00902DE7 /* LaunchScreen.storyboard */,
 				9FE1C5E32446282C00902DE7 /* AppDelegate.swift */,
 				9FE1C5E52446282C00902DE7 /* SceneDelegate.swift */,
-				9FE1C5E72446282C00902DE7 /* ViewController.swift */,
-				9FE1C5E92446282C00902DE7 /* Main.storyboard */,
+				9F20C0792446C3E500D1A833 /* Controller */,
+				9F20C0782446C3DC00D1A833 /* View */,
+				9F20C0772446C3D200D1A833 /* Model */,
 				9FE1C5EF2446282D00902DE7 /* Assets.xcassets */,
-				9FE1C5F12446282D00902DE7 /* LaunchScreen.storyboard */,
 				9FE1C5F42446282D00902DE7 /* Info.plist */,
+				9FE1C5FA24462A1900902DE7 /* GoogleService-Info.plist */,
 				9FE1C5EC2446282C00902DE7 /* Tech_News_and_Tips.xcdatamodeld */,
 			);
 			path = "Tech News and Tips";
@@ -77,9 +134,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9FE1C5F72446282D00902DE7 /* Build configuration list for PBXNativeTarget "Tech News and Tips" */;
 			buildPhases = (
+				D50B20148F8205A0D56AD6B4 /* [CP] Check Pods Manifest.lock */,
 				9FE1C5DC2446282C00902DE7 /* Sources */,
 				9FE1C5DD2446282C00902DE7 /* Frameworks */,
 				9FE1C5DE2446282C00902DE7 /* Resources */,
+				8843FA65AB925464BACDE938 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,6 +187,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FE1C5FB24462A1900902DE7 /* GoogleService-Info.plist in Resources */,
 				9FE1C5F32446282D00902DE7 /* LaunchScreen.storyboard in Resources */,
 				9FE1C5F02446282D00902DE7 /* Assets.xcassets in Resources */,
 				9FE1C5EB2446282C00902DE7 /* Main.storyboard in Resources */,
@@ -136,13 +196,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8843FA65AB925464BACDE938 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tech News and Tips/Pods-Tech News and Tips-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tech News and Tips/Pods-Tech News and Tips-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tech News and Tips/Pods-Tech News and Tips-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D50B20148F8205A0D56AD6B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tech News and Tips-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9FE1C5DC2446282C00902DE7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F20C07D2446C5E500D1A833 /* LoginViewController.swift in Sources */,
 				9FE1C5EE2446282C00902DE7 /* Tech_News_and_Tips.xcdatamodeld in Sources */,
-				9FE1C5E82446282C00902DE7 /* ViewController.swift in Sources */,
+				9F20C07B2446C5A600D1A833 /* RegisterViewController.swift in Sources */,
+				9FE1C5E82446282C00902DE7 /* InitialViewController.swift in Sources */,
 				9FE1C5E42446282C00902DE7 /* AppDelegate.swift in Sources */,
 				9FE1C5E62446282C00902DE7 /* SceneDelegate.swift in Sources */,
 			);
@@ -286,6 +390,7 @@
 		};
 		9FE1C5F82446282D00902DE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99F32B6FC5044958C5675DC0 /* Pods-Tech News and Tips.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -303,6 +408,7 @@
 		};
 		9FE1C5F92446282D00902DE7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BC1F49B802AECD471218FD6 /* Pods-Tech News and Tips.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
