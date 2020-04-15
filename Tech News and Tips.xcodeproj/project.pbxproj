@@ -10,12 +10,12 @@
 		01AA0D64C09AA72BBCFE6B0B /* Pods_Tech_News_and_Tips.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8B4DEFF5000B82A4F97DAD /* Pods_Tech_News_and_Tips.framework */; };
 		9F20C07B2446C5A600D1A833 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F20C07A2446C5A600D1A833 /* RegisterViewController.swift */; };
 		9F20C07D2446C5E500D1A833 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F20C07C2446C5E500D1A833 /* LoginViewController.swift */; };
+		9F20C07F2446C7E100D1A833 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F20C07E2446C7E100D1A833 /* Assets.xcassets */; };
 		9FE1C5E42446282C00902DE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE1C5E32446282C00902DE7 /* AppDelegate.swift */; };
 		9FE1C5E62446282C00902DE7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE1C5E52446282C00902DE7 /* SceneDelegate.swift */; };
 		9FE1C5E82446282C00902DE7 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE1C5E72446282C00902DE7 /* InitialViewController.swift */; };
 		9FE1C5EB2446282C00902DE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FE1C5E92446282C00902DE7 /* Main.storyboard */; };
 		9FE1C5EE2446282C00902DE7 /* Tech_News_and_Tips.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9FE1C5EC2446282C00902DE7 /* Tech_News_and_Tips.xcdatamodeld */; };
-		9FE1C5F02446282D00902DE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FE1C5EF2446282D00902DE7 /* Assets.xcassets */; };
 		9FE1C5F32446282D00902DE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FE1C5F12446282D00902DE7 /* LaunchScreen.storyboard */; };
 		9FE1C5FB24462A1900902DE7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9FE1C5FA24462A1900902DE7 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
@@ -25,13 +25,13 @@
 		9BC1F49B802AECD471218FD6 /* Pods-Tech News and Tips.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tech News and Tips.release.xcconfig"; path = "Target Support Files/Pods-Tech News and Tips/Pods-Tech News and Tips.release.xcconfig"; sourceTree = "<group>"; };
 		9F20C07A2446C5A600D1A833 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		9F20C07C2446C5E500D1A833 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9F20C07E2446C7E100D1A833 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../AppIcons (1)/Assets.xcassets"; sourceTree = "<group>"; };
 		9FE1C5E02446282C00902DE7 /* Tech News and Tips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tech News and Tips.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FE1C5E32446282C00902DE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FE1C5E52446282C00902DE7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9FE1C5E72446282C00902DE7 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
 		9FE1C5EA2446282C00902DE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9FE1C5ED2446282C00902DE7 /* Tech_News_and_Tips.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tech_News_and_Tips.xcdatamodel; sourceTree = "<group>"; };
-		9FE1C5EF2446282D00902DE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FE1C5F22446282D00902DE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FE1C5F42446282D00902DE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FE1C5FA24462A1900902DE7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -119,7 +119,7 @@
 				9F20C0792446C3E500D1A833 /* Controller */,
 				9F20C0782446C3DC00D1A833 /* View */,
 				9F20C0772446C3D200D1A833 /* Model */,
-				9FE1C5EF2446282D00902DE7 /* Assets.xcassets */,
+				9F20C07E2446C7E100D1A833 /* Assets.xcassets */,
 				9FE1C5F42446282D00902DE7 /* Info.plist */,
 				9FE1C5FA24462A1900902DE7 /* GoogleService-Info.plist */,
 				9FE1C5EC2446282C00902DE7 /* Tech_News_and_Tips.xcdatamodeld */,
@@ -189,8 +189,8 @@
 			files = (
 				9FE1C5FB24462A1900902DE7 /* GoogleService-Info.plist in Resources */,
 				9FE1C5F32446282D00902DE7 /* LaunchScreen.storyboard in Resources */,
-				9FE1C5F02446282D00902DE7 /* Assets.xcassets in Resources */,
 				9FE1C5EB2446282C00902DE7 /* Main.storyboard in Resources */,
+				9F20C07F2446C7E100D1A833 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -29,7 +29,16 @@
                     <view key="view" contentMode="scaleToFill" id="cQK-1O-yoT">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ahP-wu-gp8">
+                                <rect key="frame" x="87" y="384" width="240" height="128"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="ahP-wu-gp8" firstAttribute="centerX" secondItem="cQK-1O-yoT" secondAttribute="centerX" id="a3U-vW-9fZ"/>
+                            <constraint firstItem="ahP-wu-gp8" firstAttribute="centerY" secondItem="cQK-1O-yoT" secondAttribute="centerY" id="pQe-2r-oHg"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="YIb-Wv-LIp"/>
                     </view>
                 </viewController>
